@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body form{
+            margin-left: 500px;
+            margin-top: 200px;
+            text-align: center;
+            padding: 10px;
+            background:lightseagreen;
+            width:300px;
+        }
+        form input{
+            margin:10px;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <title>ADD STUDENT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+<form action="/nodebook" method="post">
+    <input type="number" placeholder="enter the roll" name="roll" required><br>
+    <input type="text" placeholder="enter name" name="name" required><br>
+    <input type="text"  place placeholder="enter address" name="add" required> <br>
+    <input type="submit" value="save student">
+</form>
+<script src="index.js"></script>
+</body>
+</html>
